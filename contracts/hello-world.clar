@@ -1,5 +1,8 @@
 (define-public (say-hi)
-   (ok "hello world"))
-
+	(ok "hello world"))
+	
 (define-read-only (echo-number (val int))
-   (ok val))
+	(ok val))
+	
+(define-read-only (calculator (val int))
+	(ok val+2))
