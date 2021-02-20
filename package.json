@@ -5,7 +5,7 @@
     "name": "Michał Iwan",
     "email": "miciwa.pl@gmail.com"
   },
-  "repository": "",
+  "repository": "https://github.com/eFndfMwMuvuv3XP/clarity-hello-world.git",
   "private": true,
   "engines": {
     "node": ">=10"
