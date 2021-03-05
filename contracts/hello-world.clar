@@ -4,11 +4,8 @@
 (define-read-only (multiplication (value int))
     (ok (* 5 value)))
 
-(define-read-only (division (value int))
-    (ok (/ 5 value)))
+(define-read-only (less (value int))
+    (ok (if (> value 15) "true" "false")))
 
 (define-read-only (addition (value int))
     (ok (+ 5 value)))
-
-(define-read-only (subtraction (value int))
-    (ok (- 5 value)))
